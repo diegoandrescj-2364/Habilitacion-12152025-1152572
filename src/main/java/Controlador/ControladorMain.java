@@ -62,6 +62,7 @@ public class ControladorMain implements ActionListener {
 
         llenarTablaRegistroA();
         llenarTablaincidentes();
+         llenarTablaSupervisores();
 
     }
 
