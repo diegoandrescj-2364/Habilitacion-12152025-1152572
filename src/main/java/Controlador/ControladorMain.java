@@ -670,20 +670,13 @@ public class ControladorMain implements ActionListener {
     }
 
     private void RegistrarSupervisor() {
-        int fila = visPri.tbSup.getSelectedRow();
-        if (fila == -1) {
-            JOptionPane.showMessageDialog(null, "Debe seleccionar un registro");
-        } else {
-
-            String codigoTrabajador = "" + visPri.tbSup.getValueAt(fila, 0);
-
+                  
             visRegSup = new VistaRegistroSupervisor();
             visPri.setVisible(false);
             visRegSup.setVisible(true);
             visRegSup.agregarListener(this);
 
-        }
-    }
+      }
 
     private void registrarSupervisor() {
 

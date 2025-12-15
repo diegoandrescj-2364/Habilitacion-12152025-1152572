@@ -19,6 +19,7 @@ public class GestorSupervisor {
 
     public GestorSupervisor(ControladorMain mc) {
         controladorMain = mc;
+        supervisores = new ArrayList<>();
     }
 
     public Supervisor buscarSupervisor(String codigo) {
